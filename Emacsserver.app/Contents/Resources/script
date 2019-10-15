@@ -3,6 +3,8 @@
 # Copyright (c) 2019, Justine Kizhakkinedath
 # All rights reserved
 #
+# Licensed under the terms of MIT License
+# See LICENSE file in the project root for full information.
 # -----------------------------------------------------------------------------
 
 /usr/local/bin/emacs --daemon
