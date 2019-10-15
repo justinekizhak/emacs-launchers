@@ -10,11 +10,11 @@
 
 - - -
 
-# Emacs launcher <!-- omit in toc -->
+# Emacs launchers
 
 - - -
 
-## Table of contents <!-- omit in toc -->
+## Table of contents
 
 - [Introduction](#introduction)
 - [Features](#features)
@@ -25,7 +25,7 @@
 
 ## Introduction
 
-    **MacOS only**
+**MacOS only**
 
 Launchers for Emacs in standard mode, Emacs in daemon mode and Emacs as client.
 
@@ -65,11 +65,11 @@ Apps included:
 
     This app executes a bash script called `script` with contents
 
-        ```bash
-        #!/usr/bin/env bash
+    ```bash
+    #!/usr/bin/env bash
 
-        /usr/local/bin/emacs
-        ```
+    /usr/local/bin/emacs
+    ```
 
 - `Emacsserver.app`: Launch only the server. This will create a small textbox
     and print some initializing messages of emacs and the textbox closes. But there
@@ -77,11 +77,11 @@ Apps included:
 
     This app executes a bash script called `script` with contents
 
-        ```bash
-        #!/usr/bin/env bash
+    ```bash
+    #!/usr/bin/env bash
 
-        /usr/local/bin/emacs --daemon
-        ```
+    /usr/local/bin/emacs --daemon
+    ```
 
 - `Emacsclient.app`: To launch the Emacs "window" or the frame. Use this app.
     But when closing make sure you close only the frame not including the daemon
@@ -89,11 +89,11 @@ Apps included:
 
     This app executes a bash script called `script` with contents
 
-        ```bash
-        #!/usr/bin/env bash
+    ```bash
+    #!/usr/bin/env bash
 
-        /usr/local/bin/emacsclient -a '' -c
-        ```
+    /usr/local/bin/emacsclient -a '' -c
+    ```
 
 The `Emacsclient.app` can only launch only one frame if no frame is available.
 This is because of how MacOS works. MacOS only allows one instance of app to
@@ -128,10 +128,10 @@ alias in my terminal. What are my options?
 
     You can run this in your shell to do that.
 
-        ```shell
-        ln -sfv /usr/local/opt/emacs*/*.plist ~/Library/LaunchAgents
-        launchctl load ~/Library/LaunchAgents/homebrew.mxcl.emacs*.plist
-        ```
+    ```shell
+    ln -sfv /usr/local/opt/emacs*/*.plist ~/Library/LaunchAgents
+    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.emacs*.plist
+    ```
 
 Visit [website].
 
