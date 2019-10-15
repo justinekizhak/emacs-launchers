@@ -20,9 +20,6 @@ Read these articles:
 
 - [Git commit best practices]
 
-[Writing good git commits]: (https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
-[Git commit best practices]: (https://github.com/trein/dev-best-practices/wiki/Git-Commit-Best-Practices)
-
 ## Branches
 
 This project uses [Gitlab Flow] for development.
@@ -63,7 +60,7 @@ Hotfixes causes lot of trouble. Not worth it.
 All tags start with `v`.
 Examples: `v3.2.1`.
 
-The versioning scheme we use is [SemVer](http://semver.org/).
+The versioning scheme we use is [SemVer].
 
 ## Merge/Pull Request Process
 
@@ -113,4 +110,8 @@ All issues are categorised into three:
 
 [Labelling method]: (#labelling-method)
 
-[Gitlab Flow]: (https://docs.gitlab.com/ee/workflow/gitlab_flow.html)
+[SemVer]:http://semver.org/
+[Gitlab Flow]:https://docs.gitlab.com/ee/workflow/gitlab_flow.html
+
+[Writing good git commits]:https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+[Git commit best practices]:https://github.com/trein/dev-best-practices/wiki/Git-Commit-Best-Practices
